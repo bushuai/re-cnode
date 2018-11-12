@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "2",
+    "boom": "^7.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "omit": "^1.0.1",
+    "pify": "^4.0.1",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
